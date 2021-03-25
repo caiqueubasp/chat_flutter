@@ -6,7 +6,6 @@ void main() {
 
   runApp(MyApp());
 
-  Firestore.instance.collection("mensagens").document().setData({"texto": "caique legal"});
 
 }
 
